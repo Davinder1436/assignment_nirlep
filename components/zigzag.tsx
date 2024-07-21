@@ -18,12 +18,12 @@ export default function Zigzag() {
           </div>
 
           {/* Items */}
-          <div className="grid gap-20">
+          <div className="grid gap-6">
 
             {/* 1st item */}
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 md:mb-0 md:order-1" data-aos="fade-up">
                 <Image className="max-w-full mx-auto md:max-w-none h-auto" src={BTS1} width={540} height={405} alt="Features 01" />
               </div>
               {/* Content */}
@@ -31,7 +31,7 @@ export default function Zigzag() {
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-md text-purple-600 mb-2">BTS speaks at the White House to discuss Asian inclusion and representation and address anti-Asian hate crimes and discrimination on May 31. (AFP-Yonhap)</div>
                   
-                  <p className="text-lg text-gray-400 mb-4">Music is a tool for singers to spread social messages, with Western singers often using their platforms to speak up on social issues. But K-pop singers often shy away from subjects that might be controversial, choosing to stay silent on social problems rather than touching on matters that might spark media conversations.</p>
+                  <p className="text-lg text-gray-400 ">Music is a tool for singers to spread social messages, with Western singers often using their platforms to speak up on social issues. But K-pop singers often shy away from subjects that might be controversial, choosing to stay silent on social problems rather than touching on matters that might spark media conversations.</p>
                   
                 </div>
               </div>

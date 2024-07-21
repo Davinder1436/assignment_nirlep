@@ -20,12 +20,12 @@ export default function Hero() {
         </div>
 
         {/* Hero content */}
-        <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
+        <div className="relative pt-32 pb-8 md:pt-40 md:pb-16">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          <div className="max-w-5xl mx-auto text-center pb-8 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">Celebrity Influence: Bridging Cultural Gaps through Global Media</h1>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Global celebrities are essential in today's interconnected world because they shape cultural perceptions and help to heal divisions between various communities. They have an impact on social, political, and cultural environments worldwide in addition to the entertainment industry. Using media platforms, celebrities can promote intercultural understanding and ease international communication, as this project, "Celebrity Influence: Bridging Cultural Gaps through Global Media," investigates. Gaining an understanding of the fundamentals of international media studies and global communication is necessary to comprehend the influence of global celebrities.</p>
+            <p className="text-lg text-gray-400 mb-4" data-aos="fade-up" data-aos-delay="200">Global celebrities are essential in today's interconnected world because they shape cultural perceptions and help to heal divisions between various communities. They have an impact on social, political, and cultural environments worldwide in addition to the entertainment industry. Using media platforms, celebrities can promote intercultural understanding and ease international communication, as this project, "Celebrity Influence: Bridging Cultural Gaps through Global Media," investigates. Gaining an understanding of the fundamentals of international media studies and global communication is necessary to comprehend the influence of global celebrities.</p>
             <a
           href="/pdf/pdf1.pdf"
           download
