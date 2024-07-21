@@ -26,6 +26,13 @@ export default function Hero() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">Celebrity Influence: Bridging Cultural Gaps through Global Media</h1>
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Global celebrities are essential in today's interconnected world because they shape cultural perceptions and help to heal divisions between various communities. They have an impact on social, political, and cultural environments worldwide in addition to the entertainment industry. Using media platforms, celebrities can promote intercultural understanding and ease international communication, as this project, "Celebrity Influence: Bridging Cultural Gaps through Global Media," investigates. Gaining an understanding of the fundamentals of international media studies and global communication is necessary to comprehend the influence of global celebrities.</p>
+            <a
+          href="/pdf/pdf1.pdf"
+          download
+          className=" px-4 py-2 bg-indigo-500 rounded-lg text-white  hover:bg-indigo-400"
+        >
+          learn more
+        </a>
             {/* <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
                 <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
