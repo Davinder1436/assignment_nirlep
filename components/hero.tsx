@@ -24,26 +24,37 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4" data-aos="fade-up">Landing template for startups</h1>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
-            <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
+            <h1 className="h1 mb-4" data-aos="fade-up">Celebrity Influence: Bridging Cultural Gaps through Global Media</h1>
+            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Global celebrities are essential in today's interconnected world because they shape cultural perceptions and help to heal divisions between various communities. They have an impact on social, political, and cultural environments worldwide in addition to the entertainment industry. Using media platforms, celebrities can promote intercultural understanding and ease international communication, as this project, "Celebrity Influence: Bridging Cultural Gaps through Global Media," investigates. Gaining an understanding of the fundamentals of international media studies and global communication is necessary to comprehend the influence of global celebrities.</p>
+            {/* <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
                 <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
                 <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
               </div>
-            </div>
+            </div> */}
           </div>
+          <div className="flex justify-center items-center">
+      <div className="relative w-full h-0 pb-[56.25%]">
+        <iframe
+          className="absolute top-0 left-0 w-full h-full"
+          src={`https://www.youtube.com/embed/wAXcMD5dOBA`}
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
 
-          <ModalVideo
+          {/* <ModalVideo
             thumb={VideoThumb}
             thumbWidth={1024}
             thumbHeight={576}
             thumbAlt="Modal video thumbnail"
             video="/videos/video.mp4"
             videoWidth={1920}
-            videoHeight={1080} />
+            videoHeight={1080} /> */}
 
         </div>
 
