@@ -31,7 +31,7 @@ export default function Newsletter() {
             <form className="w-full lg:w-1/2">
               <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
                 
-                <a className="btn text-purple-600 bg-purple-100 rounded-xl hover:bg-white shadow" href="#0">Feedback</a>
+                <a className="btn text-purple-600 bg-purple-100 rounded-xl hover:bg-white shadow" href="https://docs.google.com/forms/d/e/1FAIpQLSdTaFRhOlJVwoKWCa-gg4efsKfMzgZdf4nmQlsJGsx2hEinrw/viewform?usp=sf_link">Feedback</a>
               </div>
               {/* Success message */}
               {/* <p className="text-center lg:text-left lg:absolute mt-2 opacity-75 text-sm">Thanks for subscribing!</p> */}
